@@ -36,11 +36,6 @@ public class BarangServiceImpl implements BarangService {
     return barang_repository.findById(Id_barang).get();
     }
     @Override
-    public List<Barangnya> getBarangnya(){
-    throw new UnsupportedOperationException("Unimplemented method 'getAllBarangnya' ");
-    }
-
-    @Override
     public List<Barangnya> getAllBarangnya() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getAllBarangnya'");
